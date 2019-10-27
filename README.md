@@ -17,7 +17,7 @@ Keymap:
 
 ```
 mkdir -p ~/Library/Preferences/IntelliJIdea2017.3/keymaps/
-cp ~/workspace/IDE-Preferences/IntelliJKeymap.xml ~/Library/Preferences/IntelliJIdea2017.3/keymaps/
+cp ~/workspace/IDE-Preferences/MultiOSImproved.xml ~/Library/Preferences/IntelliJIdea2017.3/keymaps/
 ```
 
 Macros:
@@ -30,7 +30,7 @@ cp ~/workspace/IDE-Preferences/macros.xml ~/Library/Preferences/IntelliJIdea2017
 Keymap:
 ```
 mkdir -p ~/Library/Preferences/RubyMine2017.3/keymaps/
-cp ~/workspace/IDE-Preferences/IntelliJKeymap.xml ~/Library/Preferences/RubyMine2017.3/keymaps/
+cp ~/workspace/IDE-Preferences/MultiOSImproved.xml ~/Library/Preferences/RubyMine2017.3/keymaps/
 ```
 
 Macros:
@@ -43,7 +43,7 @@ cp ~/workspace/IDE-Preferences/macros.xml ~/Library/Preferences/RubyMine2017.3/o
 Keymap:
 ```
 mkdir -p ~/Library/Preferences/Rider2017.3/keymaps/
-cp ~/workspace/IDE-Preferences/IntelliJKeymap.xml ~/Library/Preferences/Rider2017.3/keymaps/
+cp ~/workspace/IDE-Preferences/MultiOSImproved.xml ~/Library/Preferences/Rider2017.3/keymaps/
 ```
 
 Macros:
@@ -63,4 +63,4 @@ cp ~/workspace/IDE-Preferences/keybindings.json ~/Library/Application\ Support/C
 If you have a current IDE instance open you'll need to restart it
 
 ## 4. Select the keymap in your IDE
-Preferences (⌘,) -> Keymap -> Select "Mac OSX 10.5 + Improved" from the Keymaps dropdown
+Preferences (⌘,) -> Keymap -> Select "Multi OS Improved+" from the Keymaps dropdown
