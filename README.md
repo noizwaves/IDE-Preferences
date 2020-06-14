@@ -16,40 +16,59 @@ git clone https://github.com/Pivotal-Boulder/IDE-Preferences.git
 Keymap:
 
 ```
-mkdir -p ~/Library/Preferences/IntelliJIdea2017.3/keymaps/
-cp ~/workspace/IDE-Preferences/MultiOSImproved.xml ~/Library/Preferences/IntelliJIdea2017.3/keymaps/
+mkdir -p ~/.config/JetBrains/IntelliJIdea2020.1/keymaps/
+cp ~/workspace/IDE-Preferences/MultiOSImproved.xml ~/.config/JetBrains/IntelliJIdea2020.1/keymaps/
 ```
 
 Macros:
 ```
-cp ~/workspace/IDE-Preferences/macros.xml ~/Library/Preferences/IntelliJIdea2017.3/options/
+cp ~/workspace/IDE-Preferences/macros.xml ~/.config/JetBrains/IntelliJIdea2020.1/options/
+```
+
+(Optional) base keymap for Linux:
+```
+mkdir -p ~/.config/JetBrains/IntelliJIdea2020.1/keymaps/
+wget -O ~/.config/JetBrains/IntelliJIdea2020.1/keymaps/MacOSPlus.xml https://raw.githubusercontent.com/JetBrains/intellij-community/master/platform/platform-resources/src/keymaps/Mac%20OS%20X%2010.5%2B.xml
 ```
 
 #### RubyMine
 
 Keymap:
 ```
-mkdir -p ~/Library/Preferences/RubyMine2017.3/keymaps/
-cp ~/workspace/IDE-Preferences/MultiOSImproved.xml ~/Library/Preferences/RubyMine2017.3/keymaps/
+mkdir -p ~/.config/JetBrains/RubyMine2020.1/keymaps/
+cp ~/workspace/IDE-Preferences/MultiOSImproved.xml ~/.config/JetBrains/RubyMine2020.1/keymaps/
 ```
 
 Macros:
 ```
-cp ~/workspace/IDE-Preferences/macros.xml ~/Library/Preferences/RubyMine2017.3/options/
+cp ~/workspace/IDE-Preferences/macros.xml ~/.config/JetBrains/RubyMine2020.1/options/
+```
+
+(Optional) base keymap for Linux:
+```
+mkdir -p ~/.config/JetBrains/RubyMine2020.1/keymaps/
+wget -O ~/.config/JetBrains/RubyMine2020.1/keymaps/MacOSPlus.xml https://raw.githubusercontent.com/JetBrains/intellij-community/master/platform/platform-resources/src/keymaps/Mac%20OS%20X%2010.5%2B.xml
 ```
 
 #### Rider
 
 Keymap:
 ```
-mkdir -p ~/Library/Preferences/Rider2017.3/keymaps/
-cp ~/workspace/IDE-Preferences/MultiOSImproved.xml ~/Library/Preferences/Rider2017.3/keymaps/
+mkdir -p ~/.config/JetBrains/Rider2020.1/keymaps/
+cp ~/workspace/IDE-Preferences/MultiOSImproved.xml ~/.config/JetBrains/Rider2020.1/keymaps/
 ```
 
 Macros:
 ```
-cp ~/workspace/IDE-Preferences/macros.xml ~/Library/Preferences/Rider2017.3/options/
+cp ~/workspace/IDE-Preferences/macros.xml ~/.config/JetBrains/Rider2020.1/options/
 ```
+
+(Optional) base keymap for Linux:
+```
+mkdir -p ~/.config/JetBrains/Rider2020.1/keymaps/
+wget -O ~/.config/JetBrains/Rider2020.1/keymaps/MacOSPlus.xml https://raw.githubusercontent.com/JetBrains/intellij-community/master/platform/platform-resources/src/keymaps/Mac%20OS%20X%2010.5%2B.xml
+```
+
 
 #### Microsoft Visual Studio Code
 These are JetBrains-style key mappings
