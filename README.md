@@ -35,8 +35,10 @@ wget -O ~/.config/JetBrains/IntelliJIdea2020.1/keymaps/MacOSPlus.xml https://raw
 
 Keymap:
 ```
-mkdir -p ~/.config/JetBrains/RubyMine2020.1/keymaps/
-cp ~/workspace/IDE-Preferences/MultiOSImproved.xml ~/.config/JetBrains/RubyMine2020.1/keymaps/
+mkdir -p ~/.config/JetBrains/RubyMine2020.3/keymaps/
+cp ~/workspace/IDE-Preferences/MultiOSImproved.xml ~/.config/JetBrains/RubyMine2020.3/keymaps/
+wget -O ~/.config/JetBrains/RubyMine2020.3/keymaps/MacOSPlus.xml https://raw.githubusercontent.com/JetBrains/intellij-community/master/platform/platform-resources/src/keymaps/Mac%20OS%20X%2010.5%2B.xml
+
 ```
 
 Macros:
